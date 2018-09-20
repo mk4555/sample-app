@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './components/Header';
 import Box from './components/Box';
+import Card from './components/Card';
+import Label from './components/Label';
 import './styles.css';
 
 class App extends Component {

@@ -2,10 +2,20 @@
   height: 100px;
   width: 100px;
   border-style: dashed;
+  background-color: red;
 }
 
 .container {
   display: flex;
-  height: 300px;
+  height: 100vh;
+  width: auto;
   border-style: solid;
+}
+
+.card {
+  height: 200px;
+  width: 150px;
+  padding: 0;
+  background-color: white;
+  filter: drop-shadow(0px 0px 5px #666);
 }
