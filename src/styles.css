@@ -1,7 +1,5 @@
-.box {
-  height: 100px;
-  width: 100px;
-  border-style: dashed;
+.square {
+  height: 150px;
   background-color: red;
 }
 
@@ -9,6 +7,7 @@
   display: flex;
   height: 100vh;
   width: auto;
+  padding: 50px;
   border-style: solid;
 }
 
@@ -18,4 +17,5 @@
   padding: 0;
   background-color: white;
   filter: drop-shadow(0px 0px 5px #666);
+
 }

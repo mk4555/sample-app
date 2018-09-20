@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from './components/Header';
-import Box from './components/Box';
+import Square from './components/Square';
 import Card from './components/Card';
 import Label from './components/Label';
 import './styles.css';
@@ -11,8 +11,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="container">
-          <Box></Box>
-          <Box></Box>
+          <Card />
         </div>
       </div>
     );

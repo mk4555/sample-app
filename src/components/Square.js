@@ -2,14 +2,14 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import '../styles.css';
 
-class Box extends React.Component {
+class Square extends React.Component {
   render () {
     return(
-      <div className="box">
-        Box!
+      <div className="square">
+        
       </div>
     )
   }
 }
 
-export default Box;
+export default Square;
