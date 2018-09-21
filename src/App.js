@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="container">
-          <Card />
+          <Card color="#FF6663"/>
         </div>
       </div>
     );

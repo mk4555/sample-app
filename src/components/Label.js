@@ -4,9 +4,16 @@ import '../styles.css';
 
 class Label extends React.Component {
   render () {
+    var label = {
+      fontFamily: "sans-serif",
+      fontWeight: "bold",
+      padding: "13px",
+      margin: 0,
+      color: "black"
+    }
     return(
-      <div className="box">
-        Box!
+      <div style={label}>
+        <p>{this.props.color}</p>
       </div>
     )
   }

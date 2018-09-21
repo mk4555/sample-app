@@ -4,9 +4,13 @@ import '../styles.css';
 
 class Square extends React.Component {
   render () {
+    var square = {
+      height: "150px",
+      backgroundColor: this.props.color
+    }
     return(
-      <div className="square">
-        
+      <div style={square}>
+
       </div>
     )
   }
